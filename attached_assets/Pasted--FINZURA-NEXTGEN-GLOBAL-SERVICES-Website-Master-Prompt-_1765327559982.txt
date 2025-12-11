@@ -1,0 +1,382 @@
+
+FINZURA NEXTGEN GLOBAL SERVICES – Website Master Prompt (Updated)
+Build a complete, fully responsive, modern multi-page website for the brand “FINZURA NEXTGEN GLOBAL SERVICES”.
+ Use the logo colors across all UI elements: Yellow → Lite Orange → Red gradient + dark navy text.
+Make the website professional, clean, minimal, corporate-style with:
+Soft shadows
+
+
+Smooth transitions
+
+
+Fade-in animations
+
+
+Hover animations
+
+
+Full-screen loading animation using the Finzura logo
+
+
+
+🎨 Design & Theme Requirements
+Colour Palette (match logo):
+Gradient: #FFB302 → #FF6A00 → #E02020
+
+
+Text & headers: #0A1A2F (dark navy)
+
+
+Background: #FAF8F4 (off-white)
+
+
+Accent elements: gradient & navy combinations
+
+
+Fonts:
+Headings: Poppins / Montserrat (bold)
+
+
+Body: Inter / Open Sans
+
+
+UI / Animation:
+Smooth fade-in on scroll
+
+
+Soft hover scaling for cards
+
+
+Logo-based preloader animation (rotating hexagon or pulse glow)
+
+
+Sticky navigation bar
+
+
+Responsive across mobile, tablet, desktop, ultrawide
+
+
+Clean spacing, minimal look, subtle shadows
+
+
+Professional line icons
+
+
+
+🏠 Pages to Create
+Home
+
+
+About Myself
+
+
+About the Company
+
+
+Services (Main Page + Subpages)
+
+
+Contact Page (NO form)
+
+
+
+1️⃣ HOME PAGE — Full Content
+Hero Section:
+Full-width banner with background gradient matching logo
+
+
+Left: heading + text
+
+
+Right: floating logo animation
+
+
+Hero Text:
+Finzura NextGen Global Services delivers accurate, reliable, and modern bookkeeping solutions for international businesses. We help companies maintain clean books, clear financial visibility, and strong financial control with expert support from India.
+CTA Buttons:
+Explore Services
+
+
+About Us
+
+
+Key Services Section (6 cards):
+Bookkeeping & Back-Office Accounting
+
+
+Accounts Payable & Receivable
+
+
+Bank & Credit Card Reconciliation
+
+
+Cash Flow Management
+
+
+Payroll Processing
+
+
+Tax Preparation Support
+
+
+Each card: icon + title + short description + clickable link to full service page
+
+
+Industry-specific Accounting:
+Cannabis / Automobile / Property / Payroll
+
+
+Why Choose Us?
+3-column feature grid:
+
+
+100% accurate and error-free bookkeeping
+
+
+Affordable and transparent pricing
+
+
+Fast turnaround with daily/weekly reporting
+
+
+Animated counters:
+Years of experience
+
+
+Clients served
+
+
+Reports processed
+
+
+Images:
+Floating hero logo
+
+
+Icons for service cards
+
+
+Background visuals showing professional finance / accounting environment
+
+
+
+
+3️⃣ ABOUT THE COMPANY PAGE — Full Content
+Company Overview:
+Finzura NextGen Global Services is a Chennai-based accounting support company offering high-quality bookkeeping and back-office solutions for international clients.
+Mission: Accurate, reliable, technology-driven bookkeeping solutions for global businesses.
+ Vision: Become a trusted global partner for end-to-end financial support.
+Timeline Design:
+Founding: 2024
+
+
+Key milestones
+
+
+Values Grid:
+Accuracy
+
+
+Transparency
+
+
+Efficiency
+
+
+Technology-driven
+
+
+Animated Stats:
+Clients served
+
+
+Reports processed
+
+
+Years of experience
+
+
+Images:
+Office / team photos
+
+
+Graphs / charts for stats
+
+
+Timeline visuals
+
+
+
+4️⃣ SERVICES PAGE — Full Details + Subpages
+Main Services Page:
+List all categories
+
+
+Each category links to a dedicated sub-page
+
+
+Subpages:
+Back Office Accounting Services:
+Bookkeeping
+
+
+Data Entry & Validation
+
+
+Checkbook Reconciliation
+
+
+Accounts Payable
+
+
+Accounts Receivable
+
+
+Back Office Benefits Support:
+Payroll-related benefits
+
+
+Employee records management
+
+
+Cash Flow Management:
+Inflow/outflow analysis
+
+
+Forecasts
+
+
+Payroll Processing:
+Calculations, deductions, compliance
+
+
+Tax Preparation Support:
+Prepare CPA-ready financial records for international tax filing compliance
+Tax Support Services:
+Master Tax Deposit Entries
+
+
+941 Payments / Local Withholding
+
+
+Quarterly payments & refunds
+
+
+Industry-Specific Services:
+Cannabis Accounting Services:
+
+
+Cannabis Bookkeeping
+
+
+COGS Tracking
+
+
+Automobile Accounting Services:
+
+
+Dealer Accounting
+
+
+Inventory Management
+
+
+Income & Expense Tracking
+
+
+Property Accounting Services:
+
+
+Owner statements
+
+
+Maintenance & expense tracking
+
+
+Rent income tracking
+
+
+Images:
+Relevant service illustrations (finance, tax, payroll)
+
+
+Industry-specific imagery (cannabis, automobile, property)
+
+
+
+5️⃣ CONTACT PAGE — No Form
+Details:
+Phone: +91 98407 97545
+
+
+WhatsApp: +91 98407 97545
+
+
+Email: FINZURA NEXTGEN GLOBAL SERVICES@gmail.com
+
+
+Address: Chennai, Tamil Nadu, India
+
+
+Business Hours: Monday – Friday, 24×7 Support
+
+
+Features:
+Google Maps embed placeholder
+
+
+Click-to-call / WhatsApp / Email icons
+
+
+Professional line icons for each contact method
+
+
+Images:
+Office location map
+
+
+Business-related background visual
+
+
+
+🌀 LOADING SCREEN
+Full-screen preloader
+
+
+Finzura logo in the center
+
+
+Rotating / pulsing animation
+
+
+Gradient background matching logo
+
+
+Smooth fade-out to homepage
+
+
+
+📱 RESPONSIVE REQUIREMENTS
+Perfect on mobile, tablet, desktop, 4K
+
+
+Hamburger menu on mobile
+
+
+
+✔ FINAL REQUIREMENT
+Fully coded frontend pages (HTML, CSS, JS)
+
+
+No backend, no databases, no forms
+
+
+Premium, branded, clean, minimal UI
+
+
+Include images for service and about pages as described
+
+
+
+
+

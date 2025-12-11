@@ -1,0 +1,61 @@
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
+import path from "path";
+import { metaImagesPlugin } from "./vite-plugin-meta-images";
+
+export default defineConfig(async () => {
+  const plugins = [
+    react(),
+    tailwindcss(),
+    metaImagesPlugin(),
+  ];
+
+  // Load Replit plugins only when running inside Replit
+  if (
+    process.env.NODE_ENV !== "production" &&
+    process.env.REPL_ID !== undefined
+  ) {
+    const runtimeErrorOverlay = (
+      await import("@replit/vite-plugin-runtime-error-modal")
+    ).default;
+    const cartographer = (
+      await import("@replit/vite-plugin-cartographer")
+    ).cartographer();
+    const devBanner = (
+      await import("@replit/vite-plugin-dev-banner")
+    ).devBanner();
+
+    plugins.push(runtimeErrorOverlay(), cartographer, devBanner);
+  }
+
+  return {
+    plugins,
+
+    resolve: {
+      alias: {
+        "@": path.resolve(import.meta.dirname, "src"),
+        "@assets": path.resolve(import.meta.dirname, "attached_assets"),
+      },
+    },
+
+    css: {
+      postcss: {
+        plugins: [],
+      },
+    },
+
+    // ✅ FIXED: root is the project root!
+    root: import.meta.dirname,
+
+    build: {
+      outDir: path.resolve(import.meta.dirname, "dist"),
+      emptyOutDir: true,
+    },
+
+    server: {
+      host: "0.0.0.0",
+      allowedHosts: true,
+    },
+  };
+});
