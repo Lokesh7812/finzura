@@ -20,7 +20,7 @@ import stockImageOffice from "@assets/stock_images/professional_account_ff44d1ea
 export default function Home() {
   const services = [
     {
-      title: "Bookkeeping & Bank-Office",
+      title: "Bookkeeping & Back-Office",
       description: "Accurate daily recording of financial transactions and ledger maintenance.",
       icon: <Calculator className="w-8 h-8 text-white" />,
       href: "/services"
@@ -32,8 +32,8 @@ export default function Home() {
       href: "/services"
     },
     {
-      title: "Bank Reconciliation",
-      description: "Monthly reconciliation of bank and credit card statements.",
+      title: "Back Reconciliation",
+      description: "Monthly reconciliation of Back and credit card statements.",
       icon: <DollarSign className="w-8 h-8 text-white" />,
       href: "/services"
     },

@@ -29,10 +29,10 @@ export interface ServiceCategory {
 
 export const serviceData: Record<string, ServiceCategory> = {
   "back-office-accounting": {
-    title: "Bank Office Accounting Services",
+    title: "Back Office Accounting Services",
     description: "Comprehensive accounting support to streamline your daily financial operations.",
     icon: Calculator,
-    detailedContent: "Our Bank Office Accounting Services are designed to function as an extension of your internal team. We handle the tedious but critical day-to-day financial tasks, ensuring your books are always up-to-date and accurate.",
+    detailedContent: "Our Back Office Accounting Services are designed to function as an extension of your internal team. We handle the tedious but critical day-to-day financial tasks, ensuring your books are always up-to-date and accurate.",
     benefits: [
       "Eliminate data entry errors with our validation processes",
       "Ensure vendors are paid on time with managed AP",
@@ -57,9 +57,9 @@ export const serviceData: Record<string, ServiceCategory> = {
       {
         slug: "checkbook-reconciliation",
         title: "Checkbook Reconciliation",
-        description: "Matching your records with bank statements to ensure accuracy.",
-        content: "We perform monthly reconciliations of your bank and credit card statements against your internal records. This process identifies discrepancies such as unauthorized transactions, bank fees, or missing entries, ensuring that your actual cash position matches your books.",
-        features: ["Bank Statement Matching", "Credit Card Reconciliation", "Discrepancy Resolution", "Fraud Detection"]
+        description: "Matching your records with Back statements to ensure accuracy.",
+        content: "We perform monthly reconciliations of your Back and credit card statements against your internal records. This process identifies discrepancies such as unauthorized transactions, Back fees, or missing entries, ensuring that your actual cash position matches your books.",
+        features: ["Back Statement Matching", "Credit Card Reconciliation", "Discrepancy Resolution", "Fraud Detection"]
       },
       {
         slug: "accounts-payable",
@@ -78,10 +78,10 @@ export const serviceData: Record<string, ServiceCategory> = {
     ]
   },
   "back-office-benefits": {
-    title: "Bank Office Benefits Support",
+    title: "Back Office Benefits Support",
     description: "Supporting your HR and administrative teams with benefits management.",
     icon: Users,
-    detailedContent: "Managing employee benefits can be complex and time-consuming. Our Bank Office Benefits Support services take the administrative burden off your shoulders.",
+    detailedContent: "Managing employee benefits can be complex and time-consuming. Our Back Office Benefits Support services take the administrative burden off your shoulders.",
     benefits: [
       "Streamlined enrollment processes",
       "Reduced administrative workload",
