@@ -53,7 +53,7 @@ export default function Contact() {
                   icon: <MapPin className="w-6 h-6" />, 
                   title: "Visit Us", 
                   content: "Chennai, Tamil Nadu, India",
-                  sub: "Main Office",
+                  sub: "Head Office",
                   color: "bg-purple-50 text-purple-600"
                 },
               ].map((item, i) => (
