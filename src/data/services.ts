@@ -28,11 +28,11 @@ export interface ServiceCategory {
 }
 
 export const serviceData: Record<string, ServiceCategory> = {
-  "back-office-accounting": {
-    title: "Back Office Accounting Services",
+  "bank-office-accounting": {
+    title: "Bank Office Accounting Services",
     description: "Comprehensive accounting support to streamline your daily financial operations.",
     icon: Calculator,
-    detailedContent: "Our Back Office Accounting Services are designed to function as an extension of your internal team. We handle the tedious but critical day-to-day financial tasks, ensuring your books are always up-to-date and accurate.",
+    detailedContent: "Our Bank Office Accounting Services are designed to function as an extension of your internal team. We handle the tedious but critical day-to-day financial tasks, ensuring your books are always up-to-date and accurate.",
     benefits: [
       "Eliminate data entry errors with our validation processes",
       "Ensure vendors are paid on time with managed AP",
@@ -58,7 +58,7 @@ export const serviceData: Record<string, ServiceCategory> = {
         slug: "checkbook-reconciliation",
         title: "Bank Reconciliation",
         description: "Matching your records with Bank statements to ensure accuracy.",
-        content: "We perform monthly reconciliations of your Back and credit card statements against your internal records. This process identifies discrepancies such as unauthorized transactions, Back fees, or missing entries, ensuring that your actual cash position matches your books.",
+        content: "We perform monthly reconciliations of your Bank and credit card statements against your internal records. This process identifies discrepancies such as unauthorized transactions, Bank fees, or missing entries, ensuring that your actual cash position matches your books.",
        features: [
   "Bank Statements",
   "Checking Accounts",
@@ -84,11 +84,11 @@ export const serviceData: Record<string, ServiceCategory> = {
       }
     ]
   },
-  "back-office-benefits": {
-    title: "Back Office Benefits Support",
+  "bank-office-benefits": {
+    title: "Bank Office Benefits Support",
     description: "Supporting your HR and administrative teams with benefits management.",
     icon: Users,
-    detailedContent: "Managing employee benefits can be complex and time-consuming. Our Back Office Benefits Support services take the administrative burden off your shoulders .                          Disclamer : Our services are administrative in nature. We do not provide legal, tax, or benefits advisory services.",
+    detailedContent: "Managing employee benefits can be complex and time-consuming. Our Bank Office Benefits Support services take the administrative burden off your shoulders .                          Disclamer : Our services are administrative in nature. We do not provide legal, tax, or benefits advisory services.",
     benefits: [
       "Streamlined enrollment processes",
       "Reduced administrative workload",
@@ -148,14 +148,14 @@ export const serviceData: Record<string, ServiceCategory> = {
         slug: "inflow-outflow-analysis",
         title: "Inflow/Outflow Analysis",
         description: "Detailed tracking of where money comes from and goes.",
-        content: "We provide back-office support by analyzing cash inflow and outflow data based on information provided by the client. Our analysis helps highlight trends, timing gaps, and potential bottlenecks for management review and decision-making.",
+        content: "We provide bank-office support by analyzing cash inflow and outflow data based on information provided by the client. Our analysis helps highlight trends, timing gaps, and potential bottlenecks for management review and decision-making.",
         features: ["Revenue Tracking", "Expense Timing Analysis", "Variance Analysis", "Trend Identification"]
       },
       {
         slug: "cash-flow-forecasting",
         title: "Cash Flow Forecasting",
         description: "Projecting future cash positions.",
-        content: "Using historical data and future commitments provided by the client, we support the preparation of cash flow models. Disclaimer : This service is provided as back-office support based on client-approved data. Final business decisions remain with the client.",
+        content: "Using historical data and future commitments provided by the client, we support the preparation of cash flow models. Disclaimer : This service is provided as bank-office support based on client-approved data. Final business decisions remain with the client.",
         features: ["Short-term Forecasting", "Long-term Projections", "Scenario Planning", "Sensitivity Analysis"]
       },
       {
@@ -183,14 +183,14 @@ export const serviceData: Record<string, ServiceCategory> = {
         slug: "payroll-calculations",
         title: "Payroll Calculations",
         description: "Accurate computation of gross to net pay.",
-        content: "We provide back-office support for payroll calculations, including regular wages, overtime, bonuses, and commissions, based on data provided by the client. All deductions for taxes, benefits, and garnishments are applied using client-approved information and payroll systems.",
+        content: "We provide bank-office support for payroll calculations, including regular wages, overtime, bonuses, and commissions, based on data provided by the client. All deductions for taxes, benefits, and garnishments are applied using client-approved information and payroll systems.",
         features: ["Wage Calculation", "Overtime Processing", "Bonus & Commission", "Deduction Management"]
       },
       {
         slug: "tax-deductions",
         title: "Tax Deductions & Filings",
         description: "Managing payroll tax obligations.",
-        content: "We provide back-office support for payroll tax deductions and filings using client-approved data and payroll systems. We assist with calculating payroll tax withholdings and preparing periodic payroll tax filings for client review and approval.",
+        content: "We provide bank-office support for payroll tax deductions and filings using client-approved data and payroll systems. We assist with calculating payroll tax withholdings and preparing periodic payroll tax filings for client review and approval.",
         features: ["Federal Tax Withholding", "State Tax Compliance", "Local Tax Management", "Quarterly Filings"]
       },
       {
@@ -218,7 +218,7 @@ export const serviceData: Record<string, ServiceCategory> = {
         slug: "financial-statement-prep",
         title: "Financial Statement Preparation",
         description: "Creating tax-ready financial statements based on client-approved data.",
-        content: "We compile financial data into standardized financial statements (Balance Sheet, Income Statement) to support tax preparation activities. Statements are prepared based on client instructions and CPA-approved requirements. Disclaimer : We provide back-office financial statement preparation support only. We do not provide tax advice or file tax returns. All filings are completed by licensed tax professionals.",
+        content: "We compile financial data into standardized financial statements (Balance Sheet, Income Statement) to support tax preparation activities. Statements are prepared based on client instructions and CPA-approved requirements. Disclaimer : We provide bank-office financial statement preparation support only. We do not provide tax advice or file tax returns. All filings are completed by licensed tax professionals.",
         features: ["Balance Sheet", "Profit & Loss", "Trial Balance", "General Ledger Cleanup"]
       },
       {
@@ -232,7 +232,7 @@ export const serviceData: Record<string, ServiceCategory> = {
   },
   "tax-support": {
   title: "Tax Processing Support",
-  description: "Back-office support for tax data preparation and processing under client direction.",
+  description: "Bank-office support for tax data preparation and processing under client direction.",
   icon: Landmark,
   detailedContent: "Navigating tax payments and filings requires accuracy and coordination. Our Tax Support Services provide structured data preparation and processing support to assist CPAs and tax professionals.",
   benefits: [

@@ -23,7 +23,7 @@ export default function About() {
             transition={{ delay: 0.1 }}
             className="text-xl text-white/80 max-w-2xl mx-auto leading-relaxed"
           >
-            We are a Chennai-based accounting support company offering high-quality bookkeeping and back-office solutions for international clients.
+            We are a Chennai-based accounting support company offering high-quality bookkeeping and bank-office solutions for international clients.
           </motion.p>
         </div>
       </section>
