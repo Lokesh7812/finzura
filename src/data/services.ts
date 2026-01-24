@@ -57,7 +57,7 @@ export const serviceData: Record<string, ServiceCategory> = {
       {
         slug: "checkbook-reconciliation",
         title: "Bank Reconciliation",
-        description: "Matching your records with Back statements to ensure accuracy.",
+        description: "Matching your records with Bank statements to ensure accuracy.",
         content: "We perform monthly reconciliations of your Back and credit card statements against your internal records. This process identifies discrepancies such as unauthorized transactions, Back fees, or missing entries, ensuring that your actual cash position matches your books.",
        features: [
   "Bank Statements",
