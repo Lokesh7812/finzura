@@ -148,7 +148,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <ul className="space-y-3 text-sm">
                 <li className="flex gap-2"><MapPin /> Chennai, India</li>
                 <li className="flex gap-2"><Phone /> +91 98407 97545</li>
-                <li className="flex gap-2"><Mail /> finzuranextgenglobalservices@gmail.com</li>
+                <li className="flex gap-2"><Mail /> info@finzuranextgenglobal.com</li>
                 <li className="flex gap-2"><Linkedin /> LinkedIn</li>
                 <li className="flex gap-2"><Instagram /> Instagram</li>
               </ul>
